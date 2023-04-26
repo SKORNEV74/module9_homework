@@ -1,7 +1,6 @@
 const btn = document.querySelector('.btn');
 const outer = document.querySelector('.outer');
 
-// Функция, которая возвращаем fetch
 const useRequest = () => {
     const value1 = +document.querySelector('.input1').value;
     const value2 = +document.querySelector('.input2').value;
